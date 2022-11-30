@@ -6,7 +6,7 @@ jobs:
   merge:
     runs-on: ubuntu-latest
     env:
-      original: https://github.com/fmi-si/homework-1
+      original: https://github.com/fmi-si/tests-homework-2
     steps:
       - uses: actions/checkout@v2
 

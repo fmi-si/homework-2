@@ -7,7 +7,7 @@ jobs:
     if: github.event.head_commit.author.name != 'github-classroom[bot]'
     runs-on: ubuntu-latest
     env:
-      tests_repo: https://github.com/fmi-si/tests-homework-1
+      tests_repo: https://github.com/fmi-si/tests-homework-2
     steps:
       - uses: actions/checkout@v2
 
